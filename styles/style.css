@@ -11,15 +11,15 @@
   width: 1280px;
   margin: 0 auto;
 }
-/*! hover effect */
-.btn:hover {
+/*! linger effect */
+.btn-linger{
   cursor: pointer;
   background-color: rgb(0, 106, 80);
   color: white;
   transition: all;
   transition-duration: 300ms;
 }
-.btn-secondary:hover {
+.cuis-secondary:hover {
   transition: all;
   cursor: pointer;
   background-color: #fff;
@@ -105,7 +105,7 @@ header {
   text-align: left;
   padding: 15px 30px;
 }
-/*! banner section  */
+/*! line section  */
 .line {
   margin-top: 20px;
 }
@@ -138,7 +138,7 @@ header {
   background-color: rgb(198, 228, 214);
   border-radius: 24px;
 }
-/*! pillars section  */
+/*! post section  */
 .post {
   margin-top: 66px;
   margin-bottom: 27px;
@@ -177,10 +177,10 @@ header {
 .post-container {
   margin-top: 30px;
 }
-.vision {
+.view{
   margin-top: 66px;
 }
-.vision-description {
+.view-description {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
   font-size: 16px;
@@ -191,7 +191,7 @@ header {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.card-vision {
+.card-view {
   padding: 32px;
   width: 410px;
   height: 325px;
@@ -250,8 +250,8 @@ header {
   background-color: rgb(247, 235, 207);
 }
 
-/*? quote section */
-.quote {
+/*? recover section */
+.recover {
   background-color: #fff;
   margin-top: 32px;
   margin-bottom: 66px;
@@ -259,7 +259,7 @@ header {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
 }
-.quote-description {
+.recover-description {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
   font-size: 15px;
@@ -269,11 +269,11 @@ header {
   letter-spacing: 0%;
   text-align: left;
 }
-.quote-container {
+.recover-container {
   background: url("../assets/quote-bg.png");
   background-repeat: no-repeat;
 }
-.quote-title {
+.recover-title {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
   font-size: 20px;
@@ -284,7 +284,7 @@ header {
   margin-top: 12px;
   margin-bottom: 6px;
 }
-.quote-subtitle {
+.recover-subtitle {
   color: rgba(14, 14, 14, 0.6);
   font-family: Fira Sans;
   font-size: 16px;
@@ -294,18 +294,18 @@ header {
   text-align: left;
 }
 
-/*? opinion section  */
-.opinion-container {
+/*? counsel section  */
+.counsel-container {
   border-radius: 16px;
   padding: 32px;
   background: rgb(255, 255, 255);
 }
 
-/*? Questions section  */
-.opinion {
+/*? Query section  */
+.counsel {
   margin-bottom: 66px;
 }
-.opinion-container {
+.counsel-container {
   margin-top: 24px;
 }
 .table-head {
@@ -332,7 +332,7 @@ header {
   justify-content: center;
   flex-direction: column;
 }
-.question {
+.query {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 16px;
@@ -424,7 +424,7 @@ header {
   text-align: left;
   margin: 12px 0px;
 }
-/*? donate section  */
+/*? impart section  */
 .donate {
   margin-top: 55px;
 }
@@ -436,11 +436,11 @@ header {
   width: 1104px;
   font-size: 16px;
 }
-.donate-container {
+.impart-container {
   width: 1104px;
   margin: 32px auto;
 }
-.donate-amount {
+.impart-amount {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   color: rgba(14, 14, 14, 0.8);
@@ -452,7 +452,7 @@ header {
   text-align: left;
   padding: 40px;
 }
-.donate-amount-2 {
+.impart-amount-2 {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   color: rgba(14, 14, 14, 0.8);
@@ -465,7 +465,7 @@ header {
   text-align: left;
   padding: 40px;
 }
-.donate-input {
+.impart-input {
   width: 1032px;
   margin: 32px auto;
   padding: 20px;
@@ -488,20 +488,20 @@ header {
   margin-top: 0px;
 }
 
-/*? news later section  */
-.news-later {
+/*? impart later section  */
+.impart-later {
   border-radius: 24px;
   padding: 80px 100px ;
   margin-bottom: 80px;
   background: rgb(198, 228, 214);
 }
-.news-later-container {
+.impart-later-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.news-latter-description {
+.impart-latter-description {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
   font-size: 16px;
@@ -525,7 +525,7 @@ header {
   text-align: left;
   padding: 17px 34px 17px 34px;
 }
-.news-latter-input {
+.impart-latter-input {
   border-radius: 8px 0px 0px 8px;
   height: 55px;
   width: 600px;
@@ -541,12 +541,12 @@ header {
   text-align: left;
   padding: 0px 40px 0px 40px;
 }
-.news-latter-input-container {
+.impart-latter-input-container {
   display: flex;
   align-items: center;
   gap: 0px;
 }
-.news-latter-description{
+.impart-latter-description{
   color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
 font-size: 16px;
