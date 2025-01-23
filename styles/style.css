@@ -4,10 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+.containing {
   background-color: rgb(245, 245, 245);
 }
-.main-section {
+.importent-section {
   width: 1280px;
   margin: 0 auto;
 }
@@ -53,7 +53,7 @@
 }
 
 /*! utility section  */
-.btn-secondary {
+.cuis-secondary {
   color: rgb(255, 255, 255);
   font-family: Fira Sans;
   font-size: 15px;
@@ -83,7 +83,7 @@ header {
   align-items: center;
   padding: 24px 0;
 }
-.header-title {
+.up-title {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 27px;
@@ -92,7 +92,7 @@ header {
   letter-spacing: 0%;
   text-align: left;
 }
-.btn {
+.up-btn {
   box-sizing: border-box;
   border: 1px solid rgb(0, 106, 80);
   border-radius: 8px;
@@ -106,7 +106,7 @@ header {
   padding: 15px 30px;
 }
 /*! banner section  */
-.banner {
+.line {
   margin-top: 20px;
 }
 .align {
@@ -123,7 +123,7 @@ header {
   letter-spacing: 0%;
   text-align: left;
 }
-.banner-subtitle {
+.up-subtitle {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 47px;
@@ -139,7 +139,7 @@ header {
   border-radius: 24px;
 }
 /*! pillars section  */
-.pillars {
+.post {
   margin-top: 66px;
   margin-bottom: 27px;
 }
@@ -174,7 +174,7 @@ header {
   text-align: left;
   width: 254px;
 }
-.pillar-container {
+.post-container {
   margin-top: 30px;
 }
 .vision {
